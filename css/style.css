@@ -168,6 +168,7 @@ strong, b{
     padding-left: .875em;
     border-radius: 50rem;
 }
+
 /*========================================
         03. PRE DEFINE CLASS CSS
 ==========================================*/
@@ -406,6 +407,11 @@ span.sub-title{
     position: absolute;
     top: 0;
     right: -15px;
+}
+a span.badge.custom-badge{
+    position: inherit;
+    top: -25;
+    right: 15px;
 }
 .main-menu ul>li a{
     margin: 0 0 0 20px;
@@ -2632,6 +2638,7 @@ span.sub-title{
 .ml-n3, .mx-n3 {
     margin-left: -.98rem!important;
 }
+
 .small, small{
     font-size: 90%;
 }
@@ -3232,3 +3239,42 @@ button, [type="button"], [type="reset"], [type="submit"] {
         transform: translateX(0) translateY(5px)
     }
 }
+
+.notification {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #6730e3;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 12px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  
+  .notification:hover {
+    background: transparent;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: red;
+    color: white;
+  }
+
+  .appstore{
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  .appstore:hover{
+    background: #ffffff;
+    color: #6730e3;
+  }
