@@ -48,6 +48,34 @@
     <link rel="stylesheet" href="css/responsive.css">
 
 </head>
+<!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('ydaazvcpdgmc');
+    </script>
+    <!-- End of Async Drift Code -->
 <body>
 
 <!--header section start-->
@@ -382,69 +410,72 @@
 
                             <div class="card-body p-0">
                                 <ul class="list-unstyled text-sm pricing-feature-list">
-                                    <li>5 Users access same time</li>
-                                    <li>Integrated eCommerce</li>
-                                    <li>Customization interface</li>
-                                    <li>Weekly updated</li>
-                                    <li>24/7 Phone Support</li>
-                                    <li>Event Analytics</li>
+                                    <li>Report Card</li>
+                                    <li>Student's Profile</li>
+                                    <li>Teacher's Profile</li>
+                                    <li>Parent's Profile</li>
+                                    <li>Admin Profile (1 User)</li>
+                                    <li>Bulk SMS</li>
                                 </ul>
                                 <div class="py-4 border-0 pricing-header">
-                                    <div class="h1 text-center mb-0 color-secondary">$<span class="price font-weight-bolder">29</span></div>
+                                    <div class="h1 text-center mb-0 color-secondary">₦<span class="price font-weight-bolder">100.00</span></div>
+                                    <p>Per Student</p>
                                 </div>
-                                <a href="#" class="btn outline-btn" target="_blank">Purchase now</a>
+                                <a href="#" class="btn outline-btn" target="_blank">Sign Up Now!</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md">
                         <div class="card text-center popular-price single-pricing-pack p-5">
-                            <h5 class="mb-2">Standard</h5>
+                            <h5 class="mb-2">E-Learning</h5>
                             <div class="pricing-img mt-3 mb-4">
                                 <img src="img/standard.svg" alt="pricing img" class="img-fluid">
                             </div>
 
                             <div class="card-body p-0">
                                 <ul class="list-unstyled text-sm pricing-feature-list">
-                                    <li>10 Users access same time</li>
-                                    <li>Integrated eCommerce</li>
-                                    <li>Customization interface</li>
-                                    <li>Daily updated</li>
+                                    <li>All Basic Features</li>
+                                    <li>Learning Management</li>
+                                    <li>Live Classroom</li>
+                                    <li>Timetable</li>
+                                    <li>Accounting Management</li>
                                     <li>24/7 Phone Support</li>
-                                    <li>Event Analytics</li>
                                 </ul>
                                 <div class="py-4 border-0 pricing-header">
-                                    <div class="h1 text-center mb-0 color-secondary">$<span class="price font-weight-bolder">145</span></div>
+                                    <div class="h1 text-center mb-0 color-secondary">₦<span class="price font-weight-bolder">200.00</span></div>
+                                    <p>Per Student</p>
                                 </div>
-                                <a href="#" class="btn solid-btn" target="_blank">Purchase now</a>
+                                <a href="#" class="btn solid-btn" target="_blank">Sign Up Now!</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md">
                         <div class="card text-center single-pricing-pack p-5">
-                            <h5 class="mb-2">Unlimited</h5>
+                            <h5 class="mb-2">Edupremium</h5>
                             <div class="pricing-img mt-3 mb-4">
                                 <img src="img/unlimited.svg" alt="pricing img" class="img-fluid">
                             </div>
 
                             <div class="card-body p-0">
                                 <ul class="list-unstyled text-sm pricing-feature-list">
-                                    <li>20 Users access same time</li>
-                                    <li>Integrated eCommerce</li>
-                                    <li>Fully Customization interface</li>
-                                    <li>Free updated</li>
-                                    <li>24/7 Phone Support</li>
-                                    <li>Event Analytics</li>
+                                    <li>All E-Learning Features</li>
+                                    <li>Student's Attendance</li>
+                                    <li>Staff Attendance</li>
+                                    <li>Library Management</li>
+                                    <li>Hostel Management</li>
+                                    <li>School Bus</li>
                                 </ul>
                                 <div class="py-4 border-0 pricing-header">
-                                    <div class="h1 text-center mb-0 color-secondary">$<span class="price font-weight-bolder">249</span></div>
+                                    <div class="h1 text-center mb-0 color-secondary">₦<span class="price font-weight-bolder">400.00</span></div>
+                                    <p>Per Student</p>
                                 </div>
-                                <a href="#" class="btn outline-btn" target="_blank">Purchase now</a>
+                                <a href="#" class="btn outline-btn" target="_blank">Sign Up Now!</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="mt-5 text-center">
-                    <p class="mb-2">If you need custom services or Need more? <a href="#" class="color-secondary">
+                    <p class="mb-2">If you need custom services or Need more? <a href="#contact" class="color-secondary">
                         Contact us
                     </a></p>
                 </div>
@@ -554,8 +585,8 @@
                     <div class="section-heading mb-5">
                         <h2>What Clients Say About Us</h2>
                         <p class="lead">
-                            Rapidiously morph transparent internal or "organic" sources whereas resource sucking
-                            e-business. Conveniently innovate compelling internal.
+                            ArhesusNG smartly interfaces students and teachers via an 
+                            intuitive platform that foster performance analysis.
                         </p>
 
                         <div class="client-section-wrap d-flex flex-row align-items-center">
@@ -652,7 +683,7 @@
                     <div class="video-promo-content mt-4 text-center">
                         <a href="https://www.youtube.com/watch?v=9No-FiEInLA"
                            class="popup-youtube video-play-icon d-inline-block"><span class="ti-control-play"></span></a>
-                        <h5 class="mt-4 text-white">Watch video overview</h5>
+                        <h5 class="mt-4 text-white">Software Overview</h5>
                     </div>
                 </div>
             </div>
@@ -707,10 +738,10 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-team-member position-relative">
                         <div class="team-image">
-                            <img src="img/team-4.jpg" alt="Team Members" class="img-fluid rounded-circle">
+                            <img src="img/team-4.jpg" alt="Team Members" class="img-fluid-Admoll rounded-circle">
                         </div>
                         <div class="team-info text-white rounded-circle d-flex flex-column align-items-center justify-content-center">
-                            <h5 class="mb-0">Edna Mason</h5>
+                            <h5 class="mb-0">Admoll Adefemi</h5>
                             <h6>Senior Designer</h6>
                             <ul class="list-inline team-social social-icon mt-4 text-white">
                                 <li class="list-inline-item"><a href="#"><span class="ti-facebook"></span></a></li>
@@ -778,7 +809,7 @@
     <!--our team section end-->
 
     <!--our blog section start-->
-    <section id="blog" class="our-blog-section ptb-100">
+    <!-- <section id="blog" class="our-blog-section ptb-100">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -848,7 +879,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--our blog section end-->
 
     <!--contact us section start-->
@@ -860,17 +891,16 @@
                 </div>
                 <div class="col-md-5">
                     <div class="section-heading">
-                        <h2>Contact With Us</h2>
+                        <h2>Contact Us</h2>
                         <p>It's very easy to get in touch with us. Just use the contact form or pay us a
-                            visit for a coffee at the office. Dynamically innovate competitive technology after an
-                            expanded array of leadership.</p>
+                            visit for a coffee at the office.<br> <b>Your School Deserves the Best</b></p>
                     </div>
                     <div class="footer-address">
                         <h6><strong>Head Office</strong></h6>
-                        <p>121 King St, Melbourne VIC 3000, Australia</p>
+                        <p>Alexandria Quarters, Ajah Lekki, Lagos State</p>
                         <ul>
-                            <li><span>Phone: +61 2 8376 6284</span></li>
-                            <li><span>Email : <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></span>
+                            <li><span>Phone: +234(0) 706 871 0976</span></li>
+                            <li><span>Email : <a href="mailto:info@arhesusng.com">info@arhesusng.com</a></span>
                             </li>
                         </ul>
                     </div>
@@ -901,8 +931,8 @@
                             </div>
                             <div class="col-sm-6 col-12">
                                 <div class="form-group">
-                                    <input type="text" name="company" value="" size="40" class="form-control"
-                                           id="company" placeholder="Your Company">
+                                    <input type="text" name="school" value="" size="40" class="form-control"
+                                           id="company" placeholder="Your School">
                                 </div>
                             </div>
                         </div>
@@ -997,7 +1027,7 @@
                 <form action="#" method="post" class="subscribe-form subscribe-form-footer d-none d-md-block d-lg-block">
                     <div class="d-flex align-items-center">
                         <input type="text" class="form-control input" id="email-footer" name="email"
-                               placeholder="info@yourdomain.com">
+                               placeholder="info@yourmail.com">
                         <input type="submit" class="button btn solid-btn" id="submit-footer" value="Subscribe">
                     </div>
                 </form>
@@ -1018,8 +1048,8 @@
                 <div class="col-md-12 col-lg-4 mb-4 mb-md-4 mb-sm-4 mb-lg-0">
                     <div class="footer-nav-wrap text-white">
                         <img src="img/logo-white-1x.png" alt="footer logo" width="120" class="img-fluid mb-3">
-                        <p>Holisticly empower premium architectures without value-added ideas. Seamlessly evolve
-                            cross-platform experiences.</p>
+                        <p>ArhesusNG smartly interfaces students and teachers via an 
+                            intuitive platform that foster performance analysis.</p>
 
                         <div class="social-list-wrap">
                             <ul class="social-list list-inline list-unstyled">
@@ -1080,9 +1110,9 @@
                                         <br>Lekki, Lagos State
                                     </li>
                                     <li class="mb-2 d-flex align-items-center"><span class="ti-mobile mr-2"></span> <a
-                                            href="tel:+61283766284"> +234(0) 706 871 0976</a></li>
+                                            href="tel:+2347068710976"> +234(0) 706 871 0976</a></li>
                                     <li class="mb-2 d-flex align-items-center"><span class="ti-email mr-2"></span><a
-                                            href="mailto:mail@example.com"> info@arhesusng.com</a></li>
+                                            href="mailto:info@arhesusng.com"> info@arhesusng.com</a></li>
                                     <li class="mb-2 d-flex align-items-center"><span class="ti-world mr-2"></span><a
                                             href="index.html"> www.arhesusng.com</a></li>
                                 </ul>
@@ -1098,7 +1128,7 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-7">
                         <div class="copyright-wrap small-text">
-                            <p class="mb-0 text-white">© ArhesusNG, All rights reserved</p>
+                            <p class="mb-0 text-white">©<script>document.write(new Date().getFullYear());</script> ArhesusNG, All rights reserved</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-5">
