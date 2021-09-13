@@ -1126,7 +1126,26 @@
 </footer>
 <!--footer section end-->
 
-<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase.js"></script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBEKybXHw5JAvY86-C21WKOFYRBde3N1VQ",
+      authDomain: "contact-edubolt.firebaseapp.com",
+      databaseURL: "https://contact-edubolt-default-rtdb.firebaseio.com",
+      projectId: "contact-edubolt",
+      storageBucket: "contact-edubolt.appspot.com",
+      messagingSenderId: "915164758881",
+      appId: "1:915164758881:web:df904309e6c420b199fb20"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
 <!-- contact form button -->
 <script src="app.js"></script>
 <!--jQuery-->
