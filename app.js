@@ -30,3 +30,16 @@ function submitForm(e) {
 
     saveContactInfo(name, email, phone, school, message)
 }
+
+// save infos to firebase
+function saveContactInfo(name, email, phone, school, messgage) {
+    let newContactInfo = contactInfo.push();
+
+    newContactInfo.set({
+        Username: name,
+        email: email,
+        phone: phone,
+        school: school,
+        message: message
+    })
+}
